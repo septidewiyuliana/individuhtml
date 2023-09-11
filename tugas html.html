@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tugas | HTML</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400&display=swap');
+        body {
+            font-family: 'Inconsolata', monospace;
+            font-size: 16px;
+        }
+
+        .navbar {
+            background-color: blueviolet;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .navbar li {
+            display: inline;
+            margin: 0 30px;
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            color: #ccc;
+        }
+
+        .hero-image {
+            max-height: 400px;
+            overflow: hidden;
+        }
+
+        .hero-image img {
+            width: 100%;
+            display: block;
+            height: auto;
+        }
+
+        .main-isi,
+        .main-isi-tugas {
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        .main-isi-tugas {
+            padding: 20px;
+        }
+
+        .footer {
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            margin-top: 200px;
+        }
+
+        .footer h3 {
+            margin: 5px;
+            font-size: 18px;
+        }
+
+        .gambar-sidebar {
+            float: right;
+            width: 30%;
+            /*box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.1);*/
+            /*border-radius: 10px;*/
+            /*border: 1px solid #ccc;*/
+            background-color: #fff;
+            padding: 10px;
+            margin-top: 10px;
+        }
+
+        .gambar-sidebar img {
+            width: 50%;
+            height: 50%;
+            display: block;
+
+        }
+    </style>
+</head>
+<body>
+<!-- Navbar link -->
+<div class="navbar">
+    <ul>
+        <li><a href="http://localhost:8080">Home</a></li>
+        <li><a href="http://localhost:8080">About</a></li>
+        <li><a href="http://localhost:8080">Projects</a></li>
+        <li><a href="http://localhost:8080">Contacts</a></li>
+    </ul>
+</div>
+<div class="hero-image">
+    <img src="gambar/header.jpeg" alt="hero_image">
+</div>
+<div class="main-isi-tugas">
+    <!-- Sidebar gambar -->
+    <div class="gambar-sidebar">
+        <img src="gambar/septi.jpeg" alt="gambar_sidebar">
+    </div>
+    <h3>Programming</h3>
+    <hr size="3" width="35%" align="left" color="black">
+    <p>A student from the Department of Curriculum and Educational Technology at Semarang State University.
+        Experienced in designing education & training programs, developing learning media such as modules,
+        instructional videos, and interactive learning materials. Proficient in using cameras and operating design
+        software such as CorelDraw and Canva. Quick learner and currently seeking opportunities to enhance skills in
+        the field of design.</p>
+</div>
+<!-- Footer -->
+<div class="footer">
+    <footer>
+        <h3>© 2023 by Septi Dewi Yuliana - Full Stack 1</h3>
+    </footer>
+</div>
+</body>
+</html>
